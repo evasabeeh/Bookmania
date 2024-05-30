@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Bookmania</title>
+    <meta name="title" content="Bookmania">
+    <meta name="description" content="Book store to explore various book collections">
+
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Work+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="top">
+    <header class="header" data-header>
+        <div class="header-top">
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="images\logo.png" width="130" height="130" alt="Bookmania">
+                </a>
+
+                <div class="input-wrapper">
+                    <input type="search" name="search" placeholder="Search our store" class="input-field">
+                    <button class="btn btn-primary">Search</button>
+                </div>
+
+                <div class="header-action">
+                    <button class="header-action-btn" aria-label="cart" title="Cart">
+                        <span class="span">0</span>
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="nav-open-btn" aria-label="open menu" title="Open Menu" data-nav-toggler>
+                        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <button class="header-action-btn" aria-label="user" title="User">
+                        <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom" data-navbar>
+            <div class="container">
+                <nav class="navbar">
+                    <button class="nav-close-btn" data-nav-toggler aria-label="clsoe menu" title="Clsoe Menu">
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+
+                    <div class="navbar-top">
+                        <input type="search" name="search" placeholder="Search our store" class="input-field">
+                        <button class="search-btn" aria-label="Search">
+                            <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                        </button>
+                    </div>
+
+                    <ul class="navbar-list">
+                        <li><a href="index.html" class="navbar-link">Home</a></li>
+                        <li><a href="index.html" class="navbar-link">Shop</a></li>
+                        <li><a href="index.html" class="navbar-link">About Us</a></li>
+                        <li><a href="#" class="navbar-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="overlay" data-overlay data-nav-toggler></div>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <div class="address-info">
+                <div class="column">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>Address</h2>
+                    <p>MEA Social Pvt. Ltd.</p>
+                    <p>C-472, 17th MG Road, Ahalya Complex, BSK 2nd Stage, Kolkata - 700523</p>
+                    <p>GSTIN: 15DDM652235T1WM</p>
+                </div>
+                <div class="column">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h2>Email</h2>
+                    <p>bookmaniastore@gmail.com</p>
+                </div>
+                <div class="column">
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>Phone</h2>
+                    <p>0522-646-3002</p>
+                </div>
+                <div class="column">
+                    <i class="fa-solid fa-clock"></i>
+                    <h2></h2>
+                    <p>10:00 AM - 06:00 PM, Mon - Sun</p>
+                </div>
+            </div>
+        
+        
+            <form>
+                <h2>Contact Us</h2>
+                <input type="text" placeholder="Name" name="firstname">
+                <input type="email" placeholder="E-mail" name="email">
+                <input type="tel" placeholder="Phone" name="phone">
+                <textarea placeholder="Your message" name="message"></textarea>
+                <input class="btnn" type="submit" value="  Send  " name="sendmsg">
+            </form>
+        </div>
+        
+        <script src="js/nav.js"></script>
+    </main>
+</body>
+
+</html>
