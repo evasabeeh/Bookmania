@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <img src="https://github.com/evasabeeh/evasabeeh.github.io/assets/97843501/7628db1c-7e91-40b5-bce6-4215bc56d9ab" alt="View" width="500" height="250"/> 
+  <img src="images\bookstore.png" alt="View" width="500" height="250"/> 
   <h3 align="center">Bookmania - Digitized bookstore</h3>
 
   <p align="center">
@@ -22,7 +22,3 @@
 
 - Responsive web-based bookshop
 - Buy & sell different books online
-
-## Insights
-
-![screencapture-evasabeeh-netlify-app-2024-04-10-23_57_23](https://github.com/evasabeeh/evasabeeh.github.io/assets/97843501/ff9cb7d2-6cee-4f74-af8d-fa1dcad82cc1)
